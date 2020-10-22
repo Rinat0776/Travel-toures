@@ -1,0 +1,25 @@
+{
+  "name": "travel-toures",
+  "version": "1.0.0",
+  "description": "Сайт путишествия и туры",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rinat0776/Travel-toures.git"
+  },
+  "author": "Rinat Khamitov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rinat0776/Travel-toures/issues"
+  },
+  "homepage": "https://github.com/Rinat0776/Travel-toures#readme"
+}
