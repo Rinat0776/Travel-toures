@@ -178,10 +178,25 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-basis: 50%; }
+    flex-basis: 50%;
+    margin-top: 45px; }
   .way__title {
     max-width: 480px;
     font-size: 36px;
     font-family: playfair;
     font-weight: 700;
-    line-height: 50px; }
+    line-height: 50px;
+    padding: 10px 0;
+    margin-top: 10px; }
+  .way__text {
+    max-width: 392px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #7D7987;
+    margin-top: 20px; }
+  .way__button {
+    padding: 17px 38px;
+    margin-left: 0;
+    max-width: 170px;
+    margin-top: 30px; }
