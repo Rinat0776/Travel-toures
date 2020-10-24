@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Inter-Regular';
+  src:
+    url('../fonts/inter/Inter-Regular.woff') format('woff'),
+    url('../fonts/inter/Inter-Regular.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Playfair Display';
+  src:
+    url('../fonts/Playfair/PlayfairDisplay-Bold.woff')format('wolff'),
+    url('../fonts/Playfair/PlayfairDisplay-Bold.woff2')format('wolff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@mixin inter {
+  font-family: 'Inter-Regular', sans-serif;
+}
+@mixin  playfair {
+  font-family: 'Playfair Display',  sans-serif;
+}
