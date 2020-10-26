@@ -54,6 +54,18 @@ img {
     border-radius: 8px;
     margin: 0 10px; }
 
+.section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0; }
+  .section-title__heading {
+    font-size: 36px;
+    font-family: playfair;
+    color: #202336;
+    font-weight: 700;
+    line-height: 50px; }
+
 .header {
   margin: 0 auto;
   padding: 0; }
@@ -285,3 +297,43 @@ img {
       transform: rotate(-45deg);
       margin-left: 10px;
       text-decoration: none; }
+
+.guides {
+  padding: 150px 0; }
+  .guides__img {
+    width: 20px;
+    height: 20px; }
+  .guides__right {
+    position: relative;
+    top: 50px;
+    left: 1253px; }
+  .guides__bottom {
+    position: relative;
+    top: 454px;
+    left: 367px; }
+  .guides__left {
+    position: relative;
+    top: 38px;
+    left: 49px; }
+  .guides__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .guides__content {
+    margin-top: 10px; }
+  .guides__text {
+    max-width: 392px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #7D7987;
+    margin-top: 10px; }
+  .guides__button {
+    padding: 17px 38px;
+    margin-left: 0;
+    max-width: 170px;
+    margin-top: 15px; }
+  .guides-title__heading {
+    max-width: 350px;
+    padding: 10px 0;
+    margin: 0; }

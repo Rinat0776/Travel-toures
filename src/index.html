@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,89 +10,90 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Travel&toures</title>
 </head>
+
 <body>
   <header class="header">
     <div class="container">
-    <div class="menu">
-      <div class="logo menu__logo">
-        <img src="img/logo.svg" alt="Логотип компании">
+      <div class="menu">
+        <div class="logo menu__logo">
+          <img src="img/logo.svg" alt="Логотип компании">
+        </div>
+        <!-- /.menu__logo -->
+        <nav class="nav menu__nav">
+          <a href="#" class="nav__item">Home</a>
+          <a href="#" class="nav__item">Destinations</a>
+          <a href="#" class="nav__item">About</a>
+          <a href="#" class="nav__item">Partner</a>
+
+          <div class="profile menu__profile">
+            <button class="button profile__button  button_outline">Login</button>
+            <button class="button profile__button  button_primary ">Register</button>
+          </div>
+          <!-- /.button menu__button -->
+        </nav>
+        <!-- /.menu__nav -->
       </div>
-      <!-- /.menu__logo -->
-      <nav class="nav menu__nav">
-        <a href="#" class="nav__item">Home</a>
-        <a href="#" class="nav__item">Destinations</a>
-        <a href="#" class="nav__item">About</a>
-        <a href="#" class="nav__item">Partner</a>
-     
-      <div class="profile menu__profile">
-        <button class="button profile__button  button_outline">Login</button>
-        <button class="button profile__button  button_primary ">Register</button>
-      </div>
-      <!-- /.button menu__button -->
-       </nav>
-       <!-- /.menu__nav -->
+      <!-- /.menu -->
     </div>
-    <!-- /.menu -->
-    </div>
-     <!-- /.container -->
+    <!-- /.container -->
   </header>
   <!-- /.header -->
   <main>
     <section class="hero">
       <div class="container">
         <div class="hero__block">
-      <div class="content hero__content">
-        <h1 class="hero__title">Explore and
-          Travel</h1>
-        <!-- /.title -->
-        <form action="#" class="form hero__form">
-          <div class="form__title">Holiday finder</div>
-          <!-- /.form__title -->
-          <div class="form__row">
-              <select name="single" class="form__single">
-                <option class="form__options">Location</option>
-                <option class="form__options">Sochi</option>
-                 <option class="form__options">St. Petersburg</option>
+          <div class="content hero__content">
+            <h1 class="hero__title">Explore and
+              Travel</h1>
+            <!-- /.title -->
+            <form action="#" class="form hero__form">
+              <div class="form__title">Holiday finder</div>
+              <!-- /.form__title -->
+              <div class="form__row">
+                <select name="single" class="form__single">
+                  <option class="form__options">Location</option>
+                  <option class="form__options">Sochi</option>
+                  <option class="form__options">St. Petersburg</option>
                   <option class="form__options"> Yaroslavl</option>
-              </select>
+                </select>
 
-              
+
                 <select name="single" class="form__single">
                   <option class="form__options">Activity</option>
                   <option class="form__options">Adventure Travel</option>
-                   <option class="form__options">Art And Culture</option>
-                    <option class="form__options">Food And Drink</option>
+                  <option class="form__options">Art And Culture</option>
+                  <option class="form__options">Food And Drink</option>
                 </select>
 
-               <select name="single"  class="form__single">
-                 <option class="form__options">Grade</option>
-                 <option class="form__options">5 stars</option>
+                <select name="single" class="form__single">
+                  <option class="form__options">Grade</option>
+                  <option class="form__options">5 stars</option>
                   <option class="form__options">4 stars</option>
-                   <option class="form__options">3 stars</option>
-               </select>
-               <select name="single" class="form__single">
-                 <option class="form__options">Date</option>
-                 <option class="form__options">1</option>
+                  <option class="form__options">3 stars</option>
+                </select>
+                <select name="single" class="form__single">
+                  <option class="form__options">Date</option>
+                  <option class="form__options">1</option>
                   <option class="form__options">2</option>
-                   <option class="form__options">3</option>
-               </select>
+                  <option class="form__options">3</option>
+                </select>
                 <button class="button  form__button  button_primary ">Explore</button>
                 <!-- /.button form__button button__primary-->
+              </div>
+              <!-- /.form__row -->
+            </form>
+            <!-- /.hero__form -->
           </div>
-          <!-- /.form__row -->
-        </form>
-        <!-- /.hero__form -->
-      </div>
-      <!-- /.content-->
-      <div class="hero__img">
-        <img src="./img/hero-img.svg" alt="путишествие">
-        <img src="./img/element.svg" class="hero__elem-1" alt="элементы дизайна">
-        <img src="./img/element2.svg"  class="hero__elem-2"alt="элементы дизайна">
-        <img src="./img/element3.svg"  class="hero__elem-3"alt="элементы дизайна">
-      </div>
-      <!-- /.hero__img -->
-      </div>
-      <!-- /.hero__block -->
+          <!-- /.content-->
+          <div class="hero__img">
+            <img src="./img/hero-img.svg" alt="путишествие">
+            <img src="./img/element.svg" class="hero__elem-1" alt="элементы дизайна">
+            <img src="./img/element2.svg" class="hero__elem-2" alt="элементы дизайна">
+            <img src="./img/element3.svg" class="hero__elem-3" alt="элементы дизайна">
+          </div>
+          <!-- /.hero__img -->
+        </div>
+        <!-- /.hero__block -->
       </div>
       <!-- /.container -->
     </section>
@@ -104,14 +106,14 @@
           </div>
           <!-- /.way__amg -->
           <div class="way__content">
-            <div class="way__title">A new way to explore the world </div>
+            <h2 class="way__title">A new way to explore the world </h2>
             <!-- /.way__title -->
-            <div class="way__text">For decades travellers have reached for Lonely Planet books when looking to plan and
+            <p class="way__text">For decades travellers have reached for Lonely Planet books when looking to plan and
               execute their perfect
-              trip, but now, they can also let Lonely Planet Experiences lead the way</div>
+              trip, but now, they can also let Lonely Planet Experiences lead the way</p>
             <!-- /.way__text -->
-              <button class="button  way__button  button_primary ">Learn more</button>
-              <!-- /.button way__button button__primary-->
+            <button class="button  way__button  button_primary ">Learn more</button>
+            <!-- /.button way__button button__primary-->
           </div>
           <!-- /.way__content -->
         </div>
@@ -125,83 +127,116 @@
         <div class="section-title">
           <h2 class="section-title__heading">Featured destinations</h2>
           <!-- /.section-title__heading -->
-          <spen class="section-title__link">View all<a href="#"  class="section-title__link_arrow"></a></spen>
+          <spen class="section-title__link">View all<a href="#" class="section-title__link_arrow"></a></spen>
           <!-- /.section-title__link -->
         </div>
+        <!-- /.section-title -->
         <div class="destinations__img">
-          <img src="./img/destinations/destinatins-bg1.svg"  class="destinations__top"alt="">
-          <img src="./img/destinations/destinations-bg2.svg"  class="destinations__left"alt="">
-          <img src="./img/destinations/destinations-bg3.svg"  class="destinations__bottom"alt="">
+          <img src="./img/destinations/destinatins-bg1.svg" class="destinations__top" alt="">
+          <img src="./img/destinations/destinations-bg2.svg" class="destinations__left" alt="">
+          <img src="./img/destinations/destinations-bg3.svg" class="destinations__bottom" alt="">
         </div>
         <!-- /.destinations__img -->
         <div class="destinations__block">
           <div class="destinations__column">
-              <div class="destinations__images">
-                <img src="./img/destinations/ampat.jpg" alt="">
-              </div>
-              <!-- /.destinations__img-->
-              <div class="destinations__item">
-                  <div class="destinations__item_title">Raja Ampat</div>
-                  <!-- /.destination__item_title -->
-                  <div class="destinations__item_subtitle">Indonesia</div>
-                  <!-- /.destination__item_subtitle -->
-              </div>
-              <!-- /.destinations__item -->
-          </div>
-           <!-- /.destinations__column -->
-          <div class="destinations__column">
-              <div class="destinations__images">
-                 <img src="./img/destinations/china.jpg" alt="">
-              </div>
-              <!-- /.destinations__card -->
-              <div class="destinations__item">
-                  <div class="destinations__item_title">Fanjingshan</div>
-                  <!-- /.destination__item_title -->
-                  <div class="destinations__item_subtitle">China</div>
-                  <!-- /.destination__item_subtitle -->
-              </div>
-              <!-- /.destinations__item -->
+            <div class="destinations__images">
+              <img src="./img/destinations/ampat.jpg" alt="">
+            </div>
+            <!-- /.destinations__img-->
+            <div class="destinations__item">
+              <div class="destinations__item_title">Raja Ampat</div>
+              <!-- /.destination__item_title -->
+              <div class="destinations__item_subtitle">Indonesia</div>
+              <!-- /.destination__item_subtitle -->
+            </div>
+            <!-- /.destinations__item -->
           </div>
           <!-- /.destinations__column -->
           <div class="destinations__column">
-              <div class="destinations__images">
-                 <img src="./img/destinations/switzerland.jpg" alt="">
-              </div>
-              <!-- /.destinations__card -->
-              <div class="destinations__item">
-                  <div class="destinations__item_title">Veveo</div>
-                  <!-- /.destination__item_title -->
-                  <div class="destinations__item_subtitle">Switzerland</div>
-                  <!-- /.destination__item_subtitle -->
-              </div>
-              <!-- /.destinations__item -->
+            <div class="destinations__images">
+              <img src="./img/destinations/china.jpg" alt="">
+            </div>
+            <!-- /.destinations__card -->
+            <div class="destinations__item">
+              <div class="destinations__item_title">Fanjingshan</div>
+              <!-- /.destination__item_title -->
+              <div class="destinations__item_subtitle">China</div>
+              <!-- /.destination__item_subtitle -->
+            </div>
+            <!-- /.destinations__item -->
           </div>
           <!-- /.destinations__column -->
           <div class="destinations__column">
-            
-              <div class="destinations__images">
-                 <img src="./img/destinations/montenegro.jpg" alt="">
-              </div>
-              <!-- /.destinations__img -->
-              <div class="destinations__item">
-               <div class="destinations__item_title">Skadar</div>
-               <!-- /.destination__item_title -->
-               <div class="destinations__item_subtitle">Montenegro</div>
-               <!-- /.destination__item_subtitle -->
-              </div>
-              <!-- /.destinations__item -->
-            
-            
+            <div class="destinations__images">
+              <img src="./img/destinations/switzerland.jpg" alt="">
+            </div>
+            <!-- /.destinations__card -->
+            <div class="destinations__item">
+              <div class="destinations__item_title">Veveo</div>
+              <!-- /.destination__item_title -->
+              <div class="destinations__item_subtitle">Switzerland</div>
+              <!-- /.destination__item_subtitle -->
+            </div>
+            <!-- /.destinations__item -->
           </div>
-        <!-- /.destinations__column -->
+          <!-- /.destinations__column -->
+          <div class="destinations__column">
+
+            <div class="destinations__images">
+              <img src="./img/destinations/montenegro.jpg" alt="">
+            </div>
+            <!-- /.destinations__img -->
+            <div class="destinations__item">
+              <div class="destinations__item_title">Skadar</div>
+              <!-- /.destination__item_title -->
+              <div class="destinations__item_subtitle">Montenegro</div>
+              <!-- /.destination__item_subtitle -->
+            </div>
+            <!-- /.destinations__item -->
+          </div>
+          <!-- /.destinations__column -->
         </div>
         <!-- /.destinations__block -->
-        <!-- /.section-title -->
       </div>
       <!-- /.container -->
     </section>
-    <!-- /.gallery -->
+    <!-- /.destinations-->
+    <section class="guides">
+      <div class="container">
+                <div class="guides__img">
+                  <img src="./img/guides-bg1.svg" class="guides__right" alt="">
+                  <img src="./img/guides-bg2.svg" class="guides__bottom" alt="">
+                  <img src="./img/guides-bg3.svg" class="guides__left" alt="">
+                </div>
+                <!-- /.guides__img -->
+        <div class="guides__block">
+          <div class="guides__content">
+            <div class="section-title">
+              <h2 class="section-title__heading guides-title__heading">Guides by Thousand Sunny</h2>
+              <!-- /.section-title__heading -->
+            </div>
+            <!-- /.section__title -->
+            <p class="guides__text">Packed with tips and advice from our on-the-ground experts, our city guides app (iOS
+              and
+              Android) is the ultimate resource before and during a trip.</p>
+            <!-- /.guides__text -->
+            <button class="button  guides__button  button_primary ">Learn more</button>
+            <!-- /.button guides__button button__primary-->
+          </div>
+          <!-- /.guides__content -->
+           <div class="guides__images">
+             <img src="./img/guides.svg" alt="">
+          
+           </div>
+           <!-- /.guides__img -->
+        </div>
+        <!-- /.guides__block -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.guides-->
   </main>
-  
+
 </body>
+
 </html>
