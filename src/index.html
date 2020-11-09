@@ -6,8 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fontawesome-stars.css">
   <title>Travel&toures</title>
 </head>
 
@@ -87,9 +90,6 @@
           <!-- /.content-->
           <div class="hero__img">
             <img src="./img/hero-img.svg" alt="путишествие">
-            <img src="./img/element.svg" class="hero__elem-1" alt="элементы дизайна">
-            <img src="./img/element2.svg" class="hero__elem-2" alt="элементы дизайна">
-            <img src="./img/element3.svg" class="hero__elem-3" alt="элементы дизайна">
           </div>
           <!-- /.hero__img -->
         </div>
@@ -131,16 +131,10 @@
           <!-- /.section-title__link -->
         </div>
         <!-- /.section-title -->
-        <div class="destinations__img">
-          <img src="./img/destinations/destinatins-bg1.svg" class="destinations__top" alt="">
-          <img src="./img/destinations/destinations-bg2.svg" class="destinations__left" alt="">
-          <img src="./img/destinations/destinations-bg3.svg" class="destinations__bottom" alt="">
-        </div>
-        <!-- /.destinations__img -->
         <div class="destinations__block">
           <div class="destinations__column">
             <div class="destinations__images">
-              <img src="./img/destinations/ampat.jpg" alt="">
+              <img src="./img/destinations/ampat.jpg" class="destinations__images_border" alt="ampat">
             </div>
             <!-- /.destinations__img-->
             <div class="destinations__item">
@@ -154,7 +148,7 @@
           <!-- /.destinations__column -->
           <div class="destinations__column">
             <div class="destinations__images">
-              <img src="./img/destinations/china.jpg" alt="">
+              <img src="./img/destinations/china.jpg" class="destinations__images_border" alt="">
             </div>
             <!-- /.destinations__card -->
             <div class="destinations__item">
@@ -168,7 +162,7 @@
           <!-- /.destinations__column -->
           <div class="destinations__column">
             <div class="destinations__images">
-              <img src="./img/destinations/switzerland.jpg" alt="">
+              <img src="./img/destinations/switzerland.jpg" class="destinations__images_border" alt="">
             </div>
             <!-- /.destinations__card -->
             <div class="destinations__item">
@@ -183,7 +177,7 @@
           <div class="destinations__column">
 
             <div class="destinations__images">
-              <img src="./img/destinations/montenegro.jpg" alt="">
+              <img src="./img/destinations/montenegro.jpg" class="destinations__images_border" alt="">
             </div>
             <!-- /.destinations__img -->
             <div class="destinations__item">
@@ -203,12 +197,6 @@
     <!-- /.destinations-->
     <section class="guides">
       <div class="container">
-                <div class="guides__img">
-                  <img src="./img/guides-bg1.svg" class="guides__right" alt="">
-                  <img src="./img/guides-bg2.svg" class="guides__bottom" alt="">
-                  <img src="./img/guides-bg3.svg" class="guides__left" alt="">
-                </div>
-                <!-- /.guides__img -->
         <div class="guides__block">
           <div class="guides__content">
             <div class="section-title">
@@ -224,18 +212,250 @@
             <!-- /.button guides__button button__primary-->
           </div>
           <!-- /.guides__content -->
-           <div class="guides__images">
-             <img src="./img/guides.svg" alt="">
-          
-           </div>
-           <!-- /.guides__img -->
+          <div class="guides__images">
+            <img src="./img/guides.svg" alt="guides">
+
+          </div>
+          <!-- /.guides__img -->
         </div>
         <!-- /.guides__block -->
       </div>
       <!-- /.container -->
     </section>
     <!-- /.guides-->
+    <section class="reviews">
+      <div class="container">
+        <div class="section-title">
+          <h2 class="section-title__heading section-title__heading_left">Testimonials</h2>
+          <!-- /.section-title__heading -->
+        </div>
+        <div class="reviews__block">
+          <div class="col-50">
+            <div class="swiper-container   swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper swiper-no-swiping">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="rating">
+                    <input type="radio" name="star" id="star-1" class="rating__input" checked>
+                    <label for="star-1" class="rating__label"></label>
+                    <input type="radio" name="star" id="star-2" class="rating__input" checked>
+                    <label for="star-2" class="rating__label"></label>
+                    <input type="radio" name="star" id="star-3" class="rating__input" checked>
+                    <label for="star-3" class="rating__label"></label>
+                    <input type="radio" name="star" id="star-4" class="rating__input" checked>
+                    <label for="star-4" class="rating__label"></label>
+                    <input type="radio" name="star" id="star-5" class="rating__input" checked>
+                    <label for="star-5" class="rating__label"></label>
+                  </div>
+                  <!-- /.swiper-slide__rating -->
+                  <div class="swiper-slide__text">
+                    <p class="swiper-slide__description">
+                      For the first time, I ordered a tour in Travel & tours, I was very worried because all
+                      communication and payment was online. But in the end everything turned out exactly and vice versa!
+                      I want to express my deep gratitude to you, you are a team of real professionals, no company has
+                      worked with me so efficiently.
+                    </p>
+                    <!-- /.swiper-slide__description -->
+                    <strong class="swiper-slide__name">Олег</strong>
+                    <span class="swiper-slide__value">г.Москва</span>
+                    <!-- /.swiper-slide__value -->
+                  </div>
+                  <!--/.swiper-slide__text-->
+                </div>
+                <div class="swiper-slide">
+
+                  <div class="rating">
+                    <input type="radio" name="star" id="star-1" class="rating__input" checked>
+                    <label for="star-1" class="rating__label"></label>
+                    <input type="radio" name="star" id="star-2" class="rating__input" checked>
+                    <label for="star-2" class="rating__label"></label>
+                    <input type="radio" name="star" id="star-3" class="rating__input" checked>
+                    <label for="star-3" class="rating__label"></label>
+                    <input type="radio" name="star" id="star-4" class="rating__input" checked>
+                    <label for="star-4" class="rating__label"></label>
+                    <input type="radio" name="star" id="star-5" class="rating__input" checked>
+                    <label for="star-5" class="rating__label"></label>
+                  </div>
+                  <div class="swiper-slide__text">
+                    <p class="swiper-slide__description">Great hotel next to the sea, within walking distance. The food
+                      is good, a lot of vegetables, herbs and fruits. Rooms are cleaned daily. In general, we were
+                      satisfied. thanks</p>
+                    <!-- /.swiper-slide__description -->
+                    <strong class="swiper-slide__name">Ирина</strong>
+                    <span class="swiper-slide__value">г.Киров</span>
+                    <!-- /.swiper-slide__value -->
+                  </div>
+                  <!--/.swiper-slide__text-->
+                </div>
+                <div class="swiper-slide">
+                  <div class="rating">
+                    <input type="radio" name="star" id="star-1" class="rating__input" checked>
+                    <label for="star-1" class="rating__label"></label>
+                    <input type="radio" name="star" id="star-2" class="rating__input" checked>
+                    <label for="star-2" class="rating__label"></label>
+                    <input type="radio" name="star" id="star-3" class="rating__input" checked>
+                    <label for="star-3" class="rating__label"></label>
+                    <input type="radio" name="star" id="star-4" class="rating__input" checked>
+                    <label for="star-4" class="rating__label"></label>
+                    <input type="radio" name="star" id="star-5" class="rating__input" checked>
+                    <label for="star-5" class="rating__label"></label>
+                  </div>
+                  <div class="swiper-slide__text">
+                    <p class="swiper-slide__description">
+                      Everything is fine without surprises, Travel & tours pleases the most with prices, we had a rest
+                      at a premium hotel at a nice price ... Thank you! ...</p>
+                    <!-- /.swiper-slide__description -->
+                    <strong class="swiper-slide__name">Надежда</strong>
+                    <span class="swiper-slide__value">г.Санкт-Петербург</span>
+                    <!-- /.swiper-slide__value -->
+                  </div>
+                  <!--/.swiper-slide__text-->
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-50">
+            <!-- Slider main container -->
+            <div class="swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper swiper-no-swiping">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="./img/reviews-1.jpg" class="swiper-slide__img" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/reviews-2.jpg" class="swiper-slide__img" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/reviews-3.jpg" class="swiper-slide__img" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-button-block">
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.revierws__block -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.reviews -->
+    <section class="stories">
+      <div class="container">
+        <div class="section-title">
+          <h2 class="section-title__heading">Trending stories</h2>
+          <!-- /.section-title__heading -->
+          <spen class="section-title__link">View all<a href="#" class="section-title__link_arrow"></a></spen>
+          <!-- /.section-title__link -->
+        </div>
+        <!-- /.section-title -->
+        <div class="stories__block">
+          <div class="stories__column">
+            <div class="card">
+              <div class="card__images">
+                <img src="./img/stories-1.jpg" class="card__images_border" alt="">
+              </div>
+              <stong class="card__title">The many benefits of
+                taking a healing holiday</stong>
+            </div>
+            <!-- /.stories__card -->
+            <p class="stories__text">‘Helaing holidays’ are on the rise
+              tohelp maximise your health and happines...</p>
+            <!-- /.stories__text -->
+            <a href="#" class="stories__link">Read more</a>
+            <!-- /.stories__link -->
+          </div>
+          <!-- /.stories__column -->
+          <div class="stories__column">
+            <div class="card">
+              <div class="card__images">
+                <img src="./img/stories-2.jpg" class="card__images_border" alt="">
+              </div>
+              <stong class="card__title">The best Kyoto restaurant
+                to try Japanese food</stong>
+            </div>
+            <!-- /.stories__card -->
+            <p class="stories__text">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
+              to visit...</p>
+            <!-- /.stories__text -->
+            <a href="#" class="stories__link">Read more</a>
+            <!-- /.stories__link -->
+          </div>
+          <!-- /.stories__column -->
+          <div class="stories__column">
+            <div class="card">
+              <div class="card__images">
+                <img src="./img/stories-3.jpg" class="card__images_border" alt="">
+              </div>
+              <stong class="card__title">Skip Chichen Itza and head
+                to this remote Yucatan</stong>
+            </div>
+            <!-- /.stories__card -->
+            <p class="stories__text">It’s remote and challenging to get,
+              but braving the jungle and exploring
+              these ruins without the...</p>
+            <!-- /.stories__text -->
+            <a href="#" class="stories__link">Read more</a>
+            <!-- /.stories__link -->
+          </div>
+          <!-- /.stories__column -->
+           <div class="stories__column">
+             <div class="card">
+               <div class="card__images">
+                 <img src="./img/stories-4.jpg" class="card__images_border" alt="">
+               </div>
+               <stong class="card__title">Surf’s up at these beginner
+                 spots around the world</stong>
+             </div>
+             <!-- /.stories__card -->
+             <p class="stories__text">If learning to surf has in on your to-
+               do list for a while, the good news
+               is: it’s never too late...</p>
+             <!-- /.stories__text -->
+             <a href="#" class="stories__link">Read more</a>
+             <!-- /.stories__link -->
+           </div>
+          <!-- /.stories__column -->
+        </div>
+        <!-- /.stories__block -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.stories-->
   </main>
+  <futer class="futer">
+    <div class="container">
+      <div class="menu">
+        <div class="logo menu__logo">
+          <img src="./img/logo.svg" alt="Логотип">
+        </div>
+        <div class="logo__content">
+          <p class="logo__text">Plan and book your perfect trip with
+            expert advice, travel tips destination
+            information from us</p>
+            <span class="logo__info">©2020 Thousand Sunny. All rights reserved</span>
+
+        </div>
+        <!-- /.logo -->
+      </div>
+      <!-- /.menu -->
+    </div>
+    <!-- /.container -->
+  </futer>
+  <!-- /.futer -->
+  <script src="jquery.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 

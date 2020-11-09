@@ -6,7 +6,8 @@
   "dependencies": {
     "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.1.0"
+    "gulp-sass": "^4.1.0",
+    "rateyo": "^3.0.0-alpha.2"
   },
   "devDependencies": {},
   "scripts": {

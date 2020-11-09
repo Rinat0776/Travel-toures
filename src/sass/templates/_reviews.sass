@@ -1,0 +1,114 @@
+.reviews
+  background:  url('../img/reviews_bg-1.svg') top 58% left 4% ,
+  url('../img/reviews_bg-2.svg') bottom 5% right 42%,
+  url('../img/reviews_bg-3.svg') top 25.5% right 14.8%
+  background-repeat:  no-repeat
+  padding: 50px 0
+  &__block
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__title
+
+.swiper
+  &-container 
+    width: 416px
+    height: 522px
+  &-slide
+    &__text
+      padding: 5px
+      margin-top: 110px
+    &__description
+     font-size: 20px
+     line-height: 30px 
+     color: $dark-text
+     +inter
+    &__name
+      display: block
+      font-size: 22px
+      line-height: 48px
+      color: $dark-text
+      +inter
+    &__value
+      font-size: 16px
+      line-height: 35px
+      color: $light-text
+    &__img
+      border-radius: 5% 
+      border: 3px solid #BFF0DD
+  &-button  
+    &-block
+     position: absolute
+     bottom: 4px
+     right: 4px
+     width: 139px
+     height: 62px
+     background-color: #fff
+     z-index: 100
+     border-radius: 12px 0 12px 0
+    &-prev , &-next
+      bottom: 5px
+      top: auto
+      block-size: 42px       
+      width: 35px
+      height: 35px
+      &::after
+       display: none
+    &-prev  
+      background: url("../img/vector.svg") #ffffff center
+      background-repeat: no-repeat
+      border-radius: 50%
+      color: $light-text
+      border: 2px solid $dark-text
+      transform: rotate(180deg)
+      left: 20%
+    &-next 
+      background: url(../img/vector.svg) #ffffff center 
+      background-repeat: no-repeat 
+      border-radius: 50%
+      border: 2px solid $dark-text
+      right: 1%
+.rating
+  position: absolute
+  top: 16%
+  left: 20%
+  transform: translate(-50%, -50%)  rotate(180deg)
+  display: flex
+  &__input
+    display: none  
+    &:checked ~
+      .rating__label
+        &::after
+          opacity: 1    
+  &__label
+    display: block
+    cursor: pointer  
+    width: 33px
+    transform: rotate(108deg)
+    &::before
+      content: '\f005'
+      font-family: fontAwesome
+      font-size: 25px
+      position: relative
+      display: block
+      color: $light-text
+    &::after
+      content: '\f005'
+      font-family: fontAwesome
+      font-size: 25px
+      position: absolute
+      top: 0
+      display: block
+      color: #f3f704
+      opacity: 0
+      transition:  .5s
+     
+
+
+        
+    
+     
+        
+   
+     
+        

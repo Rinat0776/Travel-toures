@@ -1,4 +1,8 @@
 .hero
+  background:  url("../img/hero_bg-1.svg") top 17% left 40%, 5px 5px,
+  url("../img/hero_bg-2.svg") top 59% left 3%, 5px 5px,
+  url("../img/hero_bg-3.svg")  bottom 0% left 46%, 5px 5px
+  background-repeat: no-repeat
   &__block
     display: flex
     justify-content: space-between
@@ -18,25 +22,8 @@
     top: 75px
     right: 55px
     margin-top: 72px
-    width: 50%
-  &__elem-1
-    width: 20px
-    height: 20px
-    position: absolute
-    top: 632px
-    right:  778px  
-  &__elem-2
-    width: 26px
-    height: 26px
-    position: absolute
-    top: 339px
-    left: -668px   
-  &__elem-3
-    width: 20px
-    height: 20px
-    position: absolute
-    top: 60px
-    right:  865px     
+    max-width: 720px
+    width: 50%  
 .form
   margin-top: 30px
   &__title
